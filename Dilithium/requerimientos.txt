@@ -1,0 +1,6 @@
+
+1)La instalación de mamba y jupyter se encuentra en los requerimientos de Falcon
+2)Hacer la clonación de Dilithium python https://github.com/GiacomoPope/dilithium-py
+3)Dentro de ese repo trae requirements ejecutar:
+$python -m pip install -r requiremnets.txt
+4)Ejecutar de acuerdo al repositorio los ejemplos

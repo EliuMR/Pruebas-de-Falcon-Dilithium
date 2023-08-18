@@ -1,0 +1,18 @@
+Documentación sobre lo requerido por Falcon
+1)Instalar mamba o anaconda, para mamba:
+$curl -L -O  https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh
+2)Crear entorno vitual
+$mamba create -n <env> python=X
+3)Activar el entorno virtual
+$mamba activate <env>
+4)instalación de Jupyter y kernel
+$mamba install ipkernel
+$python -m ipykernel install --user --name <env> --display-name "<env"
+$mamba install jupyter
+5)Clonar repo de Falcon
+$git clone https://github.com/tprest/falcon.py.git
+6)Como faltaron algunas instancias
+$mamba install numpy
+$mamba install pip
+$pip install pycryptodome
+7)Ejecutar ejemplo Falcon como dice en su pagina
