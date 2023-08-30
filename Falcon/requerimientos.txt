@@ -9,8 +9,8 @@ $mamba create -n <env> python=X
 3)Activar el entorno virtual
 $mamba activate <env>
 4)instalación de Jupyter y kernel
-$mamba install ipkernel
-$python -m ipykernel install --user --name <env> --display-name "<env"
+$mamba install ipykernel
+$python -m ipykernel install --user --name <env> --display-name "<env>"
 $mamba install jupyter
 5)Clonar repo de Falcon
 $git clone https://github.com/tprest/falcon.py.git
