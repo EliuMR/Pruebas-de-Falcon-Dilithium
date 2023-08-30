@@ -3,6 +3,7 @@ Documentación sobre lo requerido por Falcon
 $curl -L -O  https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh
 $sh Mambaforge-$(uname)-$(uname -m).sh
 ·Escribir que sí hasta que diga que mamba ha sido instalado
+·Cerrar y reiniciar entorno
 2)Crear entorno vitual
 $mamba create -n <env> python=X
 3)Activar el entorno virtual
