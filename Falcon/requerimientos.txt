@@ -18,4 +18,5 @@ $git clone https://github.com/tprest/falcon.py.git
 $mamba install numpy
 $mamba install pip
 $pip install pycryptodome
+$pip install ecdsa
 7)Ejecutar ejemplo Falcon como dice en su pagina
