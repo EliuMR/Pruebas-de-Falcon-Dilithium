@@ -19,4 +19,5 @@ $mamba install numpy
 $mamba install pip
 $pip install pycryptodome
 $pip install ecdsa
+&pip install pyasn1
 7)Ejecutar ejemplo Falcon como dice en su pagina
